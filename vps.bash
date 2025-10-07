@@ -741,7 +741,3 @@ echo "检测到的能力（摘要）: ${DETECTED_CAPS[*]:-（无）}"
 echo ""
 echo -e "${YEL}注意：脚本尝试自动安装并修复常见问题，但无法更改云厂商底层网络限制。如果检测失败，建议查看日志并按日志中建议操作（或把日志粘贴到聊天来让我帮你分析）。${RST}"
 EOF
-
-chmod +x /usr/local/bin/pve-net-probe-ultimate.sh
-# 立即运行（以 root）
-/usr/local/bin/pve-net-probe-ultimate.sh
